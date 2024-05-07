@@ -15,7 +15,16 @@
 
 bin/
 Device/sort_magic/
-Device/targets/qsp-x86/firststeps.simics
+Device/targets/cosim
+Device/targets/docea
+Device/targets/qsp-isim
+Device/targets/vacuum
+Device/targets/workshop-01
+Device/targets/workshop-02
+Device/targets/simics-user-training
+Device/targets/simics-builder-training
+Device/targets/qsp-x86/*
+!Device/targets/qsp-x86/icd.simics
 .project-properties
 Device/*.mk
 Device/simics*
