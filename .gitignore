@@ -15,14 +15,15 @@
 
 bin/
 Device/sort_magic/
-Device/targets/qsp-x86/*
-# !Device/targets/qsp-x86/icd.simics
+Device/targets/qsp-x86/firststeps.simics
 .project-properties
 Device/*.mk
 Device/simics*
 Device/GNUmakefile
 Device/documentation
 Device/doc
+
+
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
