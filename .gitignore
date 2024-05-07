@@ -14,7 +14,7 @@
 #gitignore files
 
 bin/
-Device/targets/
+Device/sort_magic/
 .project-properties
 Device/*.mk
 Device/simics*
