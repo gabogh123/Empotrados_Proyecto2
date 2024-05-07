@@ -1,1 +1,17 @@
-ola
+# .simics for image_capturing_device
+
+run-command-file "%script%/firststeps.simics"
+board.mb.cpu0.core[0][0].info
+
+board.mb.phys_mem.map
+load-module image_capturing_device
+@SIM_create_object("image_capturing_device", "icd")
+
+run 2 s
+
+#For further information turning all verbose for the device
+icd.log-level 4
+$m = (start-agent-manager name = mgr0) #creates an agent manager
+$m.connect-to-agent name = agent0 identifier = qsp # Connects to machine agent manager
+agent0.upload from = "media/image.bmp" to = /media
+agent0.run-until-job 1 # Finishes image load
