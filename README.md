@@ -26,7 +26,7 @@ make
 
 Open simics and run pci setup.
 ```bash
-./simics targets/qsp-x86/custom.simics
+./simics targets/qsp-x86/custom-target.simics
 ```
 
 Runs simics commands to create device on simulation.
