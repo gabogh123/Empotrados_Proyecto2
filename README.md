@@ -15,7 +15,7 @@ instalation/simics-6.0.XXX/bin/project-setup
 ```
 Add model to project.
 ```bash
-instalation/simics-6.0.XXX//bin/project-setup --device image-capturing-device --ignore-existing-files
+instalation/simics-6.0.XXX//bin/project-setup --device image_capturing_device --ignore-existing-files
 ```
 Make device.
 ```bash
