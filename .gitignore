@@ -14,7 +14,7 @@
 
 # Simics files
 bin/
-
+Device/linux64
 Device/sort_magic/
 Device/targets/cosim
 Device/targets/docea
