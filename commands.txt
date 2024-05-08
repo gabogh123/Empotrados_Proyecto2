@@ -1,0 +1,19 @@
+
+// Create project
+/home/rubsalas/Documents/Simics/intel-simics-package-manager-1.7.5/simics-6.0.169/bin/project-setup --ignore-existing-files
+
+// Add model device to Simics
+/home/rubsalas/Documents/Simics/intel-simics-package-manager-1.7.5/simics-6.0.169/bin/project-setup --device image_capturing_device --ignore-existing-files
+
+//Clone repo from talleres on another folder
+git clone https://github.com/mmongeo/academia-collaboration
+
+// Make device
+make
+
+// Run simics
+./simics
+
+// Run Command File for icd
+run-command-file targets/qsp-x86/icd.simics
+

@@ -15,3 +15,4 @@ $m = (start-agent-manager name = mgr0) #creates an agent manager
 $m.connect-to-agent name = agent0 identifier = qsp # Connects to machine agent manager
 agent0.upload from = "media/image.bmp" to = /media
 agent0.run-until-job 1 # Finishes image load
+

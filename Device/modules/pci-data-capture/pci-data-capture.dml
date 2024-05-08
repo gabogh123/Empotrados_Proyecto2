@@ -43,7 +43,7 @@ param pci_hotplug = true;
 // constant size of buffer
 param BUFFER_SIZE = 256;
 
-//variable with the file handle
+// variable with the file handle
 session FILE * file;
 
 /*
@@ -138,7 +138,7 @@ bank regs is function_mapped_bank {
     }
     
     //for communicating initial 8 bytes of the file after command=1 and input attr value is populated
-    register buffer[i < BUFFER_SIZE] size 1 @ 0x18 + i {
+    register buffer[i < BUFFER_SIZE] size 4 @ 0x18 + i*4 {
         is read_only;
         param init_val = 0x0;
     }
