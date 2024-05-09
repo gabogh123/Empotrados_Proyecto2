@@ -1,0 +1,1 @@
+cmd_/home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/modules.order := {   echo /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/pci_capture_module.ko; :; } | awk '!x[$$0]++' - > /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/modules.order

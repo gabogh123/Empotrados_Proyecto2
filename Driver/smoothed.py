@@ -12,4 +12,4 @@ def apply_smoothed_filter(image_path, output_path):
     print("Apply")
 
 if __name__ == "__main__":
-    apply_smoothed_filter("./images/img_device.bmp", "./images/img_smoothed.bmp")
+    apply_smoothed_filter("test.bmp", "test_smoothed.bmp")

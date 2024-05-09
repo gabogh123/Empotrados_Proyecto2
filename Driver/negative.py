@@ -12,4 +12,4 @@ def apply_negative_filter(image_path, output_path):
     print("Apply")
 
 if __name__ == "__main__":
-    apply_negative_filter("./images/img_device.bmp", "./images/img_negative.bmp")
+    apply_negative_filter("test.bmp", "test_negative.bmp")

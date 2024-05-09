@@ -97,9 +97,9 @@ int main() {
     
     std::cout << "************************************************************************************************************************************\n";
     std::cout << "Applying negative filter\n";
-    system("python3 ./filters/negative.py");
+    system("python3 negative.py");
     std::cout << "Applying smoothed filter\n";
-    system("python3 ./filters/smoothed.py");
+    system("python3 smoothed.py");
     std::cout << "************************************************************************************************************************************\n";
 
     return 0;

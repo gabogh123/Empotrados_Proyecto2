@@ -1,0 +1,1 @@
+cmd_/home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/pci_capture_module.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/pci_capture_module.o /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/pci_capture_driver.o

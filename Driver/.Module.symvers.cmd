@@ -1,0 +1,1 @@
+cmd_/home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/modules.order | scripts/mod/modpost -m -a  -o /home/jsantamaria/CLionProjects/Empotrados_Proyecto2/Driver/Module.symvers -e -i Module.symvers   -T -
