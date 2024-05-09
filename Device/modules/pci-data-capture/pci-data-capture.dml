@@ -41,7 +41,7 @@ is pci_device;
 param pci_hotplug = true;
 
 // constant size of buffer
-param BUFFER_SIZE = 256;
+param BUFFER_SIZE = 197_500;
 
 // variable with the file handle
 session FILE * file;

@@ -11,13 +11,11 @@ instantiate-components
 
 #For further debug
 #turning all verbose for the device
-pci_capture.log-level 4
-
-run 10 s
+#pci_capture.log-level 4
 
 #write to the command reg for testing
-pci_capture.dev->input = "media/image.bmp"
+pci_capture.dev->input = "media/paisaje.bmp"
 #board.mb.nb.pci_bus.mem_space.map
-board.mb.nb.pci_bus.mem_space.write 0xf1000000 + 0x14 0x1 0x4
-pci_capture.dev.bank.regs->buffer
+#board.mb.nb.pci_bus.mem_space.write 0xf1000000 + 0x14 0x1 0x4
+#pci_capture.dev.bank.regs->buffer
 
